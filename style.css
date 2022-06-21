@@ -1,0 +1,208 @@
+*{
+    margin:0;
+    padding: 0;
+}
+/* header_start */
+
+.header{
+    background-color: #F6F7F8;
+    width: 100%;
+    height:  480vh;
+}
+
+.create{
+    color: #344854;
+}
+
+.barone{
+    width:70.3125vw;
+    height: 0.50vh;
+    background-color: #DAD8D6;
+    margin-top: 1.875rem;
+}
+
+
+/* lesson_start */
+
+.lesson{
+    color: #344854;
+}
+
+.bartwo{
+    width:70.3125vw;
+    height:0.35vh;
+    background-color: #DAD8D6;
+    margin-top: 1.875rem;
+}
+
+.createads{
+    margin-left: -0.938rem;
+    color: #344854;
+    font-size: 1.125em;
+}
+
+/* lesson_end */
+
+.when{
+    text-align: justify;
+    color: #344854;
+    font-weight: 400;
+}
+.hair{
+    color: #344854;
+}
+.barthree{
+    text-align: center;
+    width:62.5vw;
+    height:0.35vh;
+    background-color: #DAD8D6;
+    margin-top: 2.875rem;
+    margin-left: 6.25rem;
+}
+
+
+
+.orderlist{
+    font-size: 1.125em;
+    color: #344854;
+}
+
+
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: blue;
+}
+
+
+
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev {
+    background: 0px 0px;
+    color: inherit;
+    border: none;
+    font: inherit;
+    padding: 0px !important;
+    
+    font-size: 2.5rem;
+}
+
+.imageonepart{
+    width: 23.4375vw;
+    height:91.51414309484193vh;
+    margin-left: 6.25rem;
+}
+
+
+
+.owl{
+    
+}
+
+.firstpart{
+    padding-top: 10.75rem;
+    padding-left: 12.5rem;
+}
+
+
+.hereare{
+    font-size: 1.25rem;
+}
+
+.imagetwopart{
+    width: 23.4375vw;
+    height: 100vh;
+    margin-left: 6.25rem;
+}
+
+.yourad{
+    padding-top: 18.75rem;
+}
+.imagethreepart{
+    width: 23.4375vw;
+    height: 100vh;
+    margin-left: 6.25rem;
+}
+
+.lastlinkitem{
+    margin-top: 3.125rem;
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    border-radius: 0.938rem;
+    padding-left: 3.125rem;
+    padding-top: 2.5rem;
+    padding-bottom: 1.25rem;
+
+}
+#lastone{
+    margin-right: 1.563rem;
+}
+
+
+.carousel-control-prev-icon{
+    
+
+    
+}
+.carousel-control-next-icon{
+   
+}
+.carousel-control-prev{
+    color: blue !important;
+}
+
+.carousel-indicators [data-bs-target] {
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    width: 30px;
+    height: 3px;
+    padding: 0px;
+    margin-right: 3px;
+    margin-left: 3px;
+    margin-top: 1200px !important;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: black;
+    background-clip: padding-box;
+    border-width: 10px 0px;
+    border-right-style: initial;
+    border-left-style: initial;
+    border-right-color: initial;
+    border-left-color: initial;
+    border-image: initial;
+    border-top-style: solid;
+    border-top-color: transparent;
+    border-bottom-style: solid;
+    border-bottom-color: transparent;
+    opacity: 1;
+    transition: opacity 0.6s ease 0s;
+}
+.carousel-indicators [data-bs-target]:hover{
+    background-color: blue !important;
+}
+
+.carousel-control-next-icon {
+    background-image: url("./images/arrow_carrot_right.png");
+}
+.carousel-control-prev-icon{
+    background-image: url('./images/arrow_carrot_left.png');
+}
+
+
+
+@media screen and (max-width:1000px){
+    .carousel-control-next-icon{
+        display: block;
+    }
+    .carousel-control-prev-icon{
+        display: block;
+    }
+    .firstpart{
+        margin-left: -12.5rem;
+        margin-top: -8.125rem;
+    }
+    .carouselimage{
+       margin-left: 125px;
+    }
+    .carousel-indicators [data-bs-target]{
+        display: none;
+    }
+}
